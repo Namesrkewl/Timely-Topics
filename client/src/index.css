@@ -1,0 +1,140 @@
+/* FONTS */
+
+@font-face {
+    font-family: Playfair Display;
+    src: url(PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Playfair Display Italics;
+    src: url(PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+
+/* GLOBAL STYLES */
+
+* {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    /*font-family:*/
+    color: white;
+    position: relative;
+    background-image: linear-gradient(to bottom, #00d260 30%, #00ebd0 100%);
+    background-repeat: no-repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* NAVBAR STYLES */
+
+.navbar {
+    display: flex;
+    background-image: none;
+    background-color: rgb(31, 31, 31);
+    height: 100px;
+}
+
+.navbar > * {
+    background-image: none;
+}
+
+.navbar > .brand {
+    width: 400px;
+    margin-left: 40%;
+    padding-right: 400px;
+    text-align: center;
+    font-family: Playfair Display Italics;
+    font-size: 60px;
+    transform: translate(0%, 5%);
+}
+
+.navbar > img {
+    width: 70px;
+    height: 70px;
+    padding-right: 50px;
+    transform: translate(0%, 15%);
+}
+
+
+
+/* PAGE STYLES */
+
+/* HOME STYLES */
+a {
+    background-image: none;
+    text-decoration: none;
+}
+
+img {
+    background-image: none;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.content {
+    width: 75%;
+    height: 70%;
+    transform: translate(17%,20%);
+    background-image: none;
+    overflow-y: auto;
+}
+
+.content > .loading {
+    background-image: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-10%);
+    font-size: 80px;
+}
+
+.content > .post {
+    background-image: none;
+    background-color: rgba(60,60,60,0.8);
+    border-radius: 25px;
+    margin-top: 10px;
+    height: 200px;
+}
+
+.content > .post > * {
+    background-image: none;
+    margin-left: 20px;
+}
+
+.content > .post > .post-title {
+    margin-top: 50px;
+    height: 100px;
+    font-size: 40px;
+}
+
+.content > .post > .post-time {
+    font-size: 25px;
+}
+
+.content > .post > .user-name {
+    margin-top: 50px;
+    height: 100px;
+    font-size: 40px;
+}
+
+/* PROFILE STYLES */
+form {
+    display: flex;
+    flex-direction: column;
+    background-image: none;
+    transform: translate(35%,0)
+}
+
+label {
+    background-image: none;
+    font-size: 30px;
+}
+
+input { 
+    background-image: none;
+    height: 50px;
+    color: black;
+    font-size: 20px;
+}

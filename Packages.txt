@@ -1,0 +1,16 @@
+-RESOURCES-
+
+Backend:
+Flask - Python Framework
+Flask RESTful - Restful API Framework attached to
+Flask
+Selenium - Library for remote browser access and
+input
+Pillow - Library for image processing
+Requests - Library for making http requests
+Venv - Virtual Environment to connect with React.js
+CSV Hashmap of Capital Cities for defaulting
+invalid locations
+---------
+Frontend:
+React.js - Javascript Framework

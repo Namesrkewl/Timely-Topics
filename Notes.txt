@@ -1,0 +1,22 @@
+User fills out following info to add a contact:
+
+First Name
+Last Name
+Age
+Occupation
+City
+Country
+
+If any of the demographic info aside from location
+appear in post title, that post is highlighted
+as important
+
+The city is used through selenium to search google
+news, and pull up the page with the appropriate
+location. *Done
+
+If there is no location for that city, or the only
+available city result is the wrong city (city
+and state don't match), then using our hashmap,
+we will instead go to the capital city of the
+country entered *Done
